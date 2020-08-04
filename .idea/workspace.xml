@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e0c3666d-4bf8-4e59-8ea9-7255042f937a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/snap/go/6123" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1fT7tZeCP7b22hInfiFATT115GX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="go" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.Test_maxPoint in PhotoArray">
+    <configuration name="TestIsValidFilePath in PhotoArray" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="PhotoArray" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="PhotoArray" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^TestIsValidFilePath$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestPhotoArrayBuilder_AddPhotoPaths in PhotoArray" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="PhotoArray" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="PhotoArray" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^TestPhotoArrayBuilder_AddPhotoPaths$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_createLayoutMap in PhotoArray" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="PhotoArray" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="PhotoArray" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^Test_createLayoutMap$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_maxInt in PhotoArray" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="PhotoArray" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="PhotoArray" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^Test_maxInt$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_maxPoint in PhotoArray" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="PhotoArray" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="PhotoArray" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^Test_maxPoint$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test PhotoArray" type="GoTestRunConfiguration" factoryName="Go Test" nameIsGenerated="true">
+      <module name="PhotoArray" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <package value="PhotoArray" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Test.go test PhotoArray" />
+      <item itemvalue="Go Test.TestPhotoArrayBuilder_AddPhotoPaths in PhotoArray" />
+      <item itemvalue="Go Test.TestIsValidFilePath in PhotoArray" />
+      <item itemvalue="Go Test.Test_createLayoutMap in PhotoArray" />
+      <item itemvalue="Go Test.Test_maxInt in PhotoArray" />
+      <item itemvalue="Go Test.Test_maxPoint in PhotoArray" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.Test_maxPoint in PhotoArray" />
+        <item itemvalue="Go Test.Test_maxInt in PhotoArray" />
+        <item itemvalue="Go Test.Test_createLayoutMap in PhotoArray" />
+        <item itemvalue="Go Test.TestIsValidFilePath in PhotoArray" />
+        <item itemvalue="Go Test.TestPhotoArrayBuilder_AddPhotoPaths in PhotoArray" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="228" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596376011533">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="228" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1596376011533" />
+    <state x="409" y="215" key="#com.intellij.execution.impl.EditConfigurationsDialog/1217.1440.2048.1152/0.0.3440.1440@0.0.3440.1440" timestamp="1596231242285" />
+    <state x="718" y="300" key="#xdebugger.evaluate" timestamp="1596501150509">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="718" y="300" key="#xdebugger.evaluate/0.27.1920.1053@0.27.1920.1053" timestamp="1596501150509" />
+    <state width="740" height="465" key="DebuggerActiveHint" timestamp="1596337781005">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="740" height="465" key="DebuggerActiveHint/0.27.1920.1053@0.27.1920.1053" timestamp="1596337781005" />
+    <state width="1876" height="436" key="GridCell.Tab.0.bottom" timestamp="1596503193939">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1876" height="436" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1596503193939" />
+    <state width="1750" height="238" key="GridCell.Tab.0.bottom/1217.1440.2048.1152/0.0.3440.1440@0.0.3440.1440" timestamp="1596234079361" />
+    <state width="1750" height="238" key="GridCell.Tab.0.bottom/1217.1440.2048.1152/0.27.1920.1053@0.27.1920.1053" timestamp="1596234344949" />
+    <state width="1876" height="436" key="GridCell.Tab.0.center" timestamp="1596503193939">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1876" height="436" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1596503193939" />
+    <state width="1750" height="238" key="GridCell.Tab.0.center/1217.1440.2048.1152/0.0.3440.1440@0.0.3440.1440" timestamp="1596234079361" />
+    <state width="1750" height="238" key="GridCell.Tab.0.center/1217.1440.2048.1152/0.27.1920.1053@0.27.1920.1053" timestamp="1596234344949" />
+    <state width="1876" height="436" key="GridCell.Tab.0.left" timestamp="1596503193938">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1876" height="436" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1596503193938" />
+    <state width="1750" height="238" key="GridCell.Tab.0.left/1217.1440.2048.1152/0.0.3440.1440@0.0.3440.1440" timestamp="1596234079360" />
+    <state width="1750" height="238" key="GridCell.Tab.0.left/1217.1440.2048.1152/0.27.1920.1053@0.27.1920.1053" timestamp="1596234344949" />
+    <state width="1876" height="436" key="GridCell.Tab.0.right" timestamp="1596503193939">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1876" height="436" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1596503193939" />
+    <state width="1750" height="238" key="GridCell.Tab.0.right/1217.1440.2048.1152/0.0.3440.1440@0.0.3440.1440" timestamp="1596234079361" />
+    <state width="1750" height="238" key="GridCell.Tab.0.right/1217.1440.2048.1152/0.27.1920.1053@0.27.1920.1053" timestamp="1596234344949" />
+    <state width="1876" height="329" key="GridCell.Tab.1.bottom" timestamp="1596502601018">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1876" height="329" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1596502601018" />
+    <state width="1876" height="329" key="GridCell.Tab.1.center" timestamp="1596502601017">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1876" height="329" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1596502601017" />
+    <state width="1876" height="329" key="GridCell.Tab.1.left" timestamp="1596502601017">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1876" height="329" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1596502601017" />
+    <state width="1876" height="329" key="GridCell.Tab.1.right" timestamp="1596502601017">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1876" height="329" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1596502601017" />
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1596501100643">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1596501100643" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/PhotoArray.go</url>
+          <line>25</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/PhotoArray.go</url>
+          <line>41</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/geometry.go</url>
+          <line>66</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/geometry.go</url>
+          <line>13</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
