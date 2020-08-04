@@ -1,6 +1,11 @@
 package PhotoArray
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/disintegration/imaging"
+	"image"
+	"image/color"
+)
 
 type PhotoArrayBuilder struct {
 	PhotoHeight    int
@@ -41,7 +46,32 @@ func (pab *PhotoArrayBuilder) Length() int {
 	return (len(pab.imageFilePaths))
 }
 
-func (pab *PhotoArrayBuilder) GenerateArray(outputPath string) error {
+func ReScaleFill(img image.Image, maxHeight int, maxWidth int) *image.NRGBA {
+	newImg := imaging.Fill(img, maxWidth, maxHeight, imaging.Top, imaging.Lanczos)
+	return newImg
+}
 
+func (pab *PhotoArrayBuilder) GenerateArray(outputPath string) (err error) {
+	// create output image
+	layout, outputSize, err := createLayoutMap(pab.imageFilePaths, pab.PhotoHeight, pab.PhotoWidth, pab.RowLength)
+	if err != nil {
+		return err
+	}
+	output := imaging.New(outputSize.X, outputSize.Y, color.NRGBA{})
+
+	for _, currentPhotoSlice := range layout {
+		newImg, err := imaging.Open(currentPhotoSlice.path)
+		if err != nil {
+			return err
+		}
+		newImg = ReScaleFill(newImg, pab.PhotoHeight, pab.PhotoWidth)
+		output = imaging.Paste(output, newImg, currentPhotoSlice.rec.Min)
+
+	}
+	// Save the resulting image as JPEG.
+	err = imaging.Save(output, outputPath)
+	if err != nil {
+		return err
+	}
 	return nil
 }
