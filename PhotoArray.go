@@ -37,13 +37,12 @@ func (pab *PhotoArrayBuilder) AddPhotoPaths(paths ...string) error {
 	return err
 }
 
-func (pab *PhotoArrayBuilder) ClearPaths() error {
+func (pab *PhotoArrayBuilder) ClearPaths() {
 	pab.imageFilePaths = pab.imageFilePaths[:0]
-	return nil
 }
 
 func (pab *PhotoArrayBuilder) Length() int {
-	return (len(pab.imageFilePaths))
+	return len(pab.imageFilePaths)
 }
 
 func ReScaleFill(img image.Image, maxHeight int, maxWidth int) *image.NRGBA {

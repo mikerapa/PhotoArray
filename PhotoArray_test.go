@@ -38,6 +38,8 @@ func TestNewPhotoArrayBuilder(t *testing.T) {
 }
 
 func TestPABAddAndClear(t *testing.T) {
+	var err error
+
 	// create new PhotoArrayBuilder
 	newBuilder := NewPhotoArrayBuilder()
 	if newBuilder.Length() != 0 {
@@ -45,9 +47,12 @@ func TestPABAddAndClear(t *testing.T) {
 	}
 
 	// Add paths
-	newBuilder.AddPhotoPaths("./testimages/soccer1.jpg", "./testimages/soccer2.jpg")
+	err = newBuilder.AddPhotoPaths("./testimages/soccer1.jpg", "./testimages/soccer2.jpg")
 	if newBuilder.Length() != 2 {
 		t.Errorf("PhotoArrayBuilder Length should be 2, but it is %v", newBuilder.Length())
+	}
+	if err != nil {
+		t.Errorf("PhotoArrayBuilder AddPhotoPaths returned an error:%s", err.Error())
 	}
 
 	// clear the list and make sure it works
@@ -103,15 +108,21 @@ func TestPhotoArrayBuilder_GenerateArray(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
+			var err error
+			// set up the PhotoArrayBuilder
 			pab := NewPhotoArrayBuilder()
 			pab.PhotoWidth = tt.PhotoWidth
 			pab.PhotoHeight = tt.PhotoHeight
 			pab.RowLength = tt.RowLength
-			pab.AddPhotoPaths(tt.imageFilePaths...)
+
+			err = pab.AddPhotoPaths(tt.imageFilePaths...)
+			if err != nil {
+				t.Errorf("PhootArrayBuilder AddPhotoPaths returned an error: %s", err.Error())
+			}
 
 			// create an output path
 			outputPath := randomizedFilePath("./testoutputimages/outputimage#.jpg")
-			err := pab.GenerateArray(outputPath)
+			err = pab.GenerateArray(outputPath)
 
 			if err != nil {
 				if !tt.wantErr {

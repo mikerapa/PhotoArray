@@ -1,4 +1,4 @@
-module PhotoArray
+module github.com/mikerapa/PhotoArray
 
 go 1.14
 
