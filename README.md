@@ -1,7 +1,8 @@
 # Overview 
 This Go package can be used to create a composite image from a list of images.
 
-##Basic Example
+##  Basic Example  
+
 Code  
 
 ```Go   
@@ -20,7 +21,7 @@ Code
 Resulting Image  
 ![Example output](testoutputimages/outputimage130.jpg)
 
-##Properties  
+## Properties  
 
 Name|Description|Default Value  
 ----|-----------|-------------  
@@ -36,3 +37,7 @@ ClearPaths|remove all paths from the list|none|none
 Length|returns an int indicating the number of paths currently in the list|none|none
 AddPhotoPaths|list of paths|string...|error
 GenerateArray|Create the photo array with the specified output file path|outputpath string|error
+
+## Supported Image Formats
+**Input images** can be png, jpg, bmp or gif. The PhotoArrayBuilder will detect the image format from the path provided. 
+PhotoArrayBuilder determines the **output image format** by the path provided in the GenerateArray method. Output images must be jpg, png or bmp. 

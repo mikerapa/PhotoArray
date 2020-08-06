@@ -105,6 +105,7 @@ func TestPhotoArrayBuilder_GenerateArray(t *testing.T) {
 	}{
 		{name: "no paths", PhotoHeight: 100, PhotoWidth: 100, RowLength: 10, imageFilePaths: []string{}, wantErr: true},
 		{name: "all 6 sample images", PhotoHeight: 100, PhotoWidth: 100, RowLength: 3, imageFilePaths: []string{"./testimages/soccer1.jpg", "./testimages/soccer2.jpg", "./testimages/soccer3.jpg", "./testimages/soccer4.jpg", "./testimages/soccer5.jpg", "./testimages/soccer6.jpg"}, wantErr: false},
+		{name: "mixed image types", RowLength: 2, PhotoWidth: 200, PhotoHeight: 200, imageFilePaths: []string{"./testimages/becks.bmp", "./testimages/uswnt.gif", "./testimages/soccer1.jpg", "./testimages/PHLvLAG.png"}},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
